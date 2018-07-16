@@ -85,4 +85,10 @@ sudo nano /etc/apache2/apache2.conf
         Require all denied
 </FilesMatch>
 sudo service apache2 restart
+cd /var/www/html
+sudo nano test.py
+////////////////////////////////////////
+print('Hello')
+////////////////////////////////////////
+Test -> http://server_ip:8080/test.py -> Forbidden -> OK
 ```
