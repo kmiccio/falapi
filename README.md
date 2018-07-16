@@ -70,7 +70,9 @@ sudo systemctl restart apache2
 cd /var/www/html
 sudo nano index2.php
 ////////////////////////////////////////
-Hello PHP
+<?php
+echo "Hello PHP";
+?>
 ////////////////////////////////////////
 Test -> http://server_ip:8080/index2.php
 
