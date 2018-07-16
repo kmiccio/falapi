@@ -41,7 +41,7 @@ sudo pip3 install pyvirtualdisplay
 Parte 4 -> TEST CHROME HEADLESS
 
 sudo nano test.py
-	////////////////////////////////////////
+////////////////////////////////////////
 	from pyvirtualdisplay import Display
 	from selenium import webdriver
 
@@ -64,9 +64,15 @@ sudo apt-get install apache2 -y
 sudo nano /etc/apache2/ports.conf
 -> Listen 8080
 sudo service apache2 restart
+Test -> http://server_ip:8080/
 sudo apt-get install php libapache2-mod-php
 sudo systemctl restart apache2
-sudo nano index.php
+cd /var/www/html
+sudo nano index2.php
+////////////////////////////////////////
+Hello PHP
+////////////////////////////////////////
+Test -> http://server_ip:8080/index2.php
 
 ###########
 Parte 6 -> .htacess
